@@ -1,0 +1,41 @@
+{
+  "version": 3,
+  "sources": [
+    "webpack:///src/views/check/check_list.vue",
+    "webpack:///./src/views/check/check_list.vue?8f71",
+    "webpack:///./src/views/check/check_list.vue"
+  ],
+  "names": [
+    "check_check_list",
+    "render",
+    "_h",
+    "this",
+    "$createElement",
+    "_c",
+    "_self",
+    "attrs",
+    "title",
+    "_v",
+    "size",
+    "icon",
+    "is-link",
+    "to",
+    "staticRenderFns",
+    "Component",
+    "__webpack_require__",
+    "normalizeComponent",
+    "name",
+    "data",
+    "methods",
+    "ssrContext",
+    "__webpack_exports__"
+  ],
+  "mappings": "wGAWA,ICReA,GADEC,OAFjB,WAA0B,IAAaC,EAAbC,KAAaC,eAA0BC,EAAvCF,KAAuCG,MAAAD,IAAAH,EAAwB,OAAAG,EAAA,OAAAA,EAAA,eAAmCE,OAAOC,MAAA,UAAzGL,KAAyHM,GAAA,KAAAJ,EAAA,kBAAAA,EAAA,YAAkDE,OAAOC,MAAA,OAAAE,KAAA,QAAAC,KAAA,UAAAC,UAAA,GAAAC,GAAA,sBAAlLV,KAAuQM,GAAA,KAAAJ,EAAA,YAA6BE,OAAOC,MAAA,SAAAE,KAAA,QAAAC,KAAA,cAAAC,UAAA,GAAAC,GAAA,wBAA4F,QAEhZC,oBCCjB,IAcAC,EAdyBC,EAAQ,OAcjCC,EFLAC,KAAA,YACAC,KAFA,WAGA,UAIAC,YECEpB,GATF,EAVA,SAAAqB,GACEL,EAAQ,SAaV,KAEA,MAUeM,EAAA,QAAAP,EAAiB",
+  "file": "static/js/11.f07665c7cbb43f2b2e6a.js",
+  "sourcesContent": [
+    "<template>\r\n  <div>\r\n    <van-nav-bar title=\"卫生检查\"/>\r\n      <van-cell-group>\r\n      <van-cell title=\"新增检查\" size=\"large\" icon=\"records\" is-link to=\"/sanitationcheck\" />\r\n      <van-cell title=\"历史检查记录\" size=\"large\" icon=\"description\" is-link to=\"/sanitationrecord\" />\r\n    </van-cell-group>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nexport default {\r\n    name:'checkList',\r\n    data() {\r\n      return {\r\n            \r\n      }\r\n    },\r\n    methods: {\r\n    }\r\n}\r\n</script>\r\n\r\n<style>\r\n.exit_btn{\r\n  margin-top: 30px;\r\n  width: 90%;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n}\r\n</style>\n\n\n// WEBPACK FOOTER //\n// src/views/check/check_list.vue",
+    "var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('van-nav-bar',{attrs:{\"title\":\"卫生检查\"}}),_vm._v(\" \"),_c('van-cell-group',[_c('van-cell',{attrs:{\"title\":\"新增检查\",\"size\":\"large\",\"icon\":\"records\",\"is-link\":\"\",\"to\":\"/sanitationcheck\"}}),_vm._v(\" \"),_c('van-cell',{attrs:{\"title\":\"历史检查记录\",\"size\":\"large\",\"icon\":\"description\",\"is-link\":\"\",\"to\":\"/sanitationrecord\"}})],1)],1)}\nvar staticRenderFns = []\nvar esExports = { render: render, staticRenderFns: staticRenderFns }\nexport default esExports\n\n\n//////////////////\n// WEBPACK FOOTER\n// ./node_modules/vue-loader/lib/template-compiler?{\"id\":\"data-v-4b399285\",\"hasScoped\":false,\"transformToRequire\":{\"video\":[\"src\",\"poster\"],\"source\":\"src\",\"img\":\"src\",\"image\":\"xlink:href\"},\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/views/check/check_list.vue\n// module id = null\n// module chunks = ",
+    "function injectStyle (ssrContext) {\n  require(\"!!../../../node_modules/extract-text-webpack-plugin/dist/loader.js?{\\\"omit\\\":1,\\\"remove\\\":true,\\\"publicPath\\\":\\\"../../\\\"}!vue-style-loader!css-loader?{\\\"sourceMap\\\":true}!../../../node_modules/vue-loader/lib/style-compiler/index?{\\\"vue\\\":true,\\\"id\\\":\\\"data-v-4b399285\\\",\\\"scoped\\\":false,\\\"hasInlineConfig\\\":false}!../../../node_modules/vue-loader/lib/selector?type=styles&index=0!./check_list.vue\")\n}\nvar normalizeComponent = require(\"!../../../node_modules/vue-loader/lib/component-normalizer\")\n/* script */\nexport * from \"!!babel-loader!../../../node_modules/vue-loader/lib/selector?type=script&index=0!./check_list.vue\"\nimport __vue_script__ from \"!!babel-loader!../../../node_modules/vue-loader/lib/selector?type=script&index=0!./check_list.vue\"\n/* template */\nimport __vue_template__ from \"!!../../../node_modules/vue-loader/lib/template-compiler/index?{\\\"id\\\":\\\"data-v-4b399285\\\",\\\"hasScoped\\\":false,\\\"transformToRequire\\\":{\\\"video\\\":[\\\"src\\\",\\\"poster\\\"],\\\"source\\\":\\\"src\\\",\\\"img\\\":\\\"src\\\",\\\"image\\\":\\\"xlink:href\\\"},\\\"buble\\\":{\\\"transforms\\\":{}}}!../../../node_modules/vue-loader/lib/selector?type=template&index=0!./check_list.vue\"\n/* template functional */\nvar __vue_template_functional__ = false\n/* styles */\nvar __vue_styles__ = injectStyle\n/* scopeId */\nvar __vue_scopeId__ = null\n/* moduleIdentifier (server only) */\nvar __vue_module_identifier__ = null\nvar Component = normalizeComponent(\n  __vue_script__,\n  __vue_template__,\n  __vue_template_functional__,\n  __vue_styles__,\n  __vue_scopeId__,\n  __vue_module_identifier__\n)\n\nexport default Component.exports\n\n\n\n//////////////////\n// WEBPACK FOOTER\n// ./src/views/check/check_list.vue\n// module id = null\n// module chunks = "
+  ],
+  "sourceRoot": ""
+}
